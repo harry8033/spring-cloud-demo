@@ -14,6 +14,9 @@ eureka:
       defaultZone: http://localhost:9000/eureka
     register-with-eureka: true
     fetch-registry: true
+management:
+  security:
+    enabled: false
 #zuul:
 #  routes:
 #    cloud:
