@@ -1,0 +1,6 @@
+eureka:
+  instance:
+    appname: config-server
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka
