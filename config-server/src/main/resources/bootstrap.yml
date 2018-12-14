@@ -1,6 +1,11 @@
+server:
+  port: 8080
+#  context-path: /config-server
 eureka:
-  instance:
-    appname: config-server
   client:
     serviceUrl:
-      defaultZone: http://localhost:9000/eureka
+      defaultZone: http://localhost:9000/eureka/
+spring:
+  application:
+    name: config-server
+
