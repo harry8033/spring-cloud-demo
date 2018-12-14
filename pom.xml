@@ -24,9 +24,8 @@
     <module>config-server</module>
     <module>config-client</module>
     <module>zuul</module>
-    <module>test</module>
-      <module>eureka-server</module>
-      <module>elasticsearch</module>
+    <module>eureka-server</module>
+    <module>elasticsearch</module>
   </modules>
 
   <name>Maven</name>
